@@ -15,7 +15,8 @@ while resp == 's' or resp == 'S':
     except ValueError:
         print("Entrada inválida. Por favor, digite um número válido.")
         continue
-
+    resp = input("Deseja continuar? (s/n): ")
+    break
    
 if qtde > 0:
     media = soma / qtde
